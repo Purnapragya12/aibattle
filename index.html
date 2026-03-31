@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>AI Battlefield Simulation</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>AI Battlefield Control Simulation</h1>
+
+<div class="container">
+
+<div id="grid"></div>
+
+<div class="panel">
+
+<h2>Simulation Control</h2>
+
+<button id="start">START</button>
+
+<button id="reset">RESET</button>
+
+<button id="random">RANDOM</button>
+
+<br><br>
+
+Speed
+
+<input type="range"
+min="100"
+max="600"
+value="300"
+id="speed">
+
+<p id="timer">Time:0</p>
+
+<h3>Territory</h3>
+
+<p>Blue: <span id="blueScore"></span></p>
+
+<p>Red: <span id="redScore"></span></p>
+
+<h3 id="winner"></h3>
+
+<div id="log"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
